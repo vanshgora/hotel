@@ -1,0 +1,81 @@
+/* UserReviews.css */
+
+/* General Section Styles */
+.user-reviews .section {
+    padding: 3rem 0;
+  }
+  
+  /* Title Styles */
+  .user-reviews .user-reviews-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  /* Columns and Column Styles */
+  .user-reviews .columns {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  
+  .user-reviews .column {
+    padding: 1.5rem;
+  }
+  
+  /* User Review Card Styles */
+  .user-reviews .user-review {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* User Review Content Styles */
+  .user-reviews .user-review .user-review-content {
+    flex: 1;
+    padding: 1.5rem;
+  }
+  
+  /* User Review Header Styles */
+  .user-reviews .user-review .user-review-content .user-review-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* User Avatar Styles */
+  .user-reviews .user-review .user-review-content .user-review-header .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  /* User Info Styles */
+  .user-reviews .user-review .user-review-content .user-review-header .user-info {
+    flex: 1;
+  }
+  
+  /* Username Styles */
+  .user-reviews .user-review .user-review-content .user-review-header .user-info .username {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Rating Styles */
+  .user-reviews .user-review .user-review-content .user-review-header .user-info .rating {
+    color: #f39c12;
+  }
+  
+  /* User Comment Styles */
+  .user-reviews .user-review .user-review-content .user-comment {
+    margin-top: 1rem;
+    color: #6b6b6b;
+  }
+  
+  /* Hover effect for the whole card */
+  .user-reviews .user-review:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  

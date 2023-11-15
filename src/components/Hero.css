@@ -1,0 +1,61 @@
+/* Hero.css */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-body {
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button {
+    margin-top: 1.5rem;
+  }
+  
+  /* Background overlay to enhance text visibility on images */
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  /* Optional: Style for the background image */
+  .hero-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* Optional: Style for the video (adjust as needed) */
+  .hero-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+  
